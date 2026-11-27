@@ -1,0 +1,7 @@
+{
+  "comment": "Axe 1 (Maths): 65% FineWeb + 35% FineMath",
+  "sources": {
+    "fineweb": 0.65,
+    "finemath": 0.35
+  }
+}

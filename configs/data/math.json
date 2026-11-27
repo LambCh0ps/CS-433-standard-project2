@@ -1,0 +1,14 @@
+{
+  "comment": "Axe 1 (Maths): FineWeb (4 shards for fixed tokenizer) + FineMath pretrain, GSM8K/MetaMathQA/TinyGSM SFT",
+  "pretrain": {
+    "fineweb": {"registry": "fineweb", "num_shards": 4},
+    "finemath": {"registry": "finemath", "num_shards": 5}
+  },
+  "sft": {
+    "gsm8k": {"registry": "gsm8k"},
+    "metamathqa": {"registry": "metamathqa"},
+    "tinygsm": {"registry": "tinygsm", "max_docs": 100000},
+    "mbpp": {"registry": "mbpp"},
+    "smoltalk": {"registry": "smoltalk", "max_docs": 23000}
+  }
+}
